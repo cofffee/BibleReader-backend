@@ -1,0 +1,16 @@
+   # A specific file
+   .env
+   .DS_Store
+      # A whole folder (trailing slash)
+   node_modules/
+   #dist/
+
+   # All files with an extension
+   #*.log
+
+   # A file in a specific location
+   #config/secrets.json
+
+   # Exception: ignore all .env.* files except the example
+   #.env.*
+   #!.env.example
